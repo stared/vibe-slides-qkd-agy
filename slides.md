@@ -30,9 +30,9 @@ Trusting the Quantum World, Not the Devices
 layout: two-cols
 ---
 
+<template v-slot:default>
 # The Problem: Trust
 
-<template v-slot:default>
 Traditional QKD relies on trusting the devices.
 
 - **Source**: Must emit perfect qubits.
