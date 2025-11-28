@@ -58,12 +58,12 @@ class: text-center
 
 <div class="grid grid-cols-3 gap-8 mt-8">
   <div class="flex flex-col items-center">
-    <img src="/alice_anime_character_1764262310171.png" class="h-48 rounded-full border-4 border-blue-500 shadow-lg mb-4" />
+    <img src="/alice_v5.png" class="h-48 rounded-full border-4 border-blue-500 shadow-lg mb-4" />
     <h3 class="text-blue-400 font-bold">Alice</h3>
     <p class="text-sm opacity-80">The Sender</p>
   </div>
   <div class="flex flex-col items-center">
-    <img src="/bob_anime_character_1764262432805.png" class="h-48 rounded-full border-4 border-green-500 shadow-lg mb-4" />
+    <img src="/bob_v4.png" class="h-48 rounded-full border-4 border-green-500 shadow-lg mb-4" />
     <h3 class="text-green-400 font-bold">Bob</h3>
     <p class="text-sm opacity-80">The Receiver</p>
   </div>
@@ -151,8 +151,8 @@ class: text-center
 # Thank You!
 
 <div class="flex justify-center gap-4 mt-8">
-  <img src="/alice_anime_character_1764262310171.png" class="h-32 rounded-full opacity-80" />
-  <img src="/bob_anime_character_1764262432805.png" class="h-32 rounded-full opacity-80" />
+  <img src="/alice_v5.png" class="h-32 rounded-full opacity-80" />
+  <img src="/bob_v4.png" class="h-32 rounded-full opacity-80" />
 </div>
 
 <div class="mt-8 text-sm opacity-50">
