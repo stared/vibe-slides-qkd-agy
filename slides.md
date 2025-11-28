@@ -57,21 +57,24 @@ class: text-center
 # The Players
 
 <div class="grid grid-cols-3 gap-8 mt-8">
-  <div class="flex flex-col items-center">
-    <img src="/alice_v5.png" class="h-48 rounded-full border-4 border-blue-500 shadow-lg mb-4" />
-    <h3 class="text-blue-400 font-bold">Alice</h3>
-    <p class="text-sm opacity-80">The Sender</p>
-  </div>
-  <div class="flex flex-col items-center">
-    <img src="/bob_v4.png" class="h-48 rounded-full border-4 border-green-500 shadow-lg mb-4" />
-    <h3 class="text-green-400 font-bold">Bob</h3>
-    <p class="text-sm opacity-80">The Receiver</p>
-  </div>
-  <div class="flex flex-col items-center">
-    <img src="/eve_anime_character_1764262460827.png" class="h-48 rounded-full border-4 border-purple-500 shadow-lg mb-4" />
-    <h3 class="text-purple-400 font-bold">Eve</h3>
-    <p class="text-sm opacity-80">The Eavesdropper</p>
-  </div>
+  <CharacterProfile 
+    name="Alice" 
+    role="The Sender" 
+    image="/alice_v5.png" 
+    color="blue" 
+  />
+  <CharacterProfile 
+    name="Bob" 
+    role="The Receiver" 
+    image="/bob_v4.png" 
+    color="green" 
+  />
+  <CharacterProfile 
+    name="Eve" 
+    role="The Eavesdropper" 
+    image="/eve_anime_character_1764262460827.png" 
+    color="purple" 
+  />
 </div>
 
 ---
@@ -102,15 +105,15 @@ Crucially, they don't need to trust the source or the measurement devices!
     <p class="mb-4">
       If the devices are behaving classically (or are pre-programmed by Eve), they must obey <b>Bell's Inequality</b>.
     </p>
-    <p>
+    <div class="my-4">
       $$ S \leq 2 $$
-    </p>
+    </div>
     <p class="mt-4">
       But quantum mechanics allows:
     </p>
-    <p class="text-xl font-bold text-blue-400">
+    <div class="text-xl font-bold text-blue-400">
       $$ S = 2\sqrt{2} \approx 2.82 $$
-    </p>
+    </div>
   </div>
   <div class="w-1/2">
     <img src="/measurement_device_anime_1764262548611.png" class="rounded-lg shadow-lg" />
